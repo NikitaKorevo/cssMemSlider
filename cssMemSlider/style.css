@@ -62,7 +62,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .text p {
-    min-height: 40px;
+    min-height: 50px;
   }
 }
 
