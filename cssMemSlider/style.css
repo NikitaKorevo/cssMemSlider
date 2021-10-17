@@ -12,10 +12,10 @@ body {
   flex-direction: column;
   overflow: hidden;
   background-color: #fff;
-  width: calc(100% - 20px);
-  max-width: 640px;
-  margin: 50px auto 0;
-  border-radius: 20px;
+  width: calc(100% - 1.25rem);
+  max-width: 40rem;
+  margin: 3.1rem auto 0;
+  border-radius: 1.25rem;
 }
 
 .slides {
@@ -38,21 +38,21 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0 25px;
-  padding: 0 20px 20px;
+  gap: 0 1.56rem;
+  padding: 0 1.25rem 1.25rem;
 }
 
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column-reverse;
-    gap: 25px 0;
+    gap: 1.56rem 0;
   }
 }
 
 .text p {
   position: relative;
-  bottom: -25px;
-  font-size: 18px;
+  bottom: -1.56rem;
+  font-size: 1.1rem;
   margin: 0;
   display: none;
   opacity: 0;
@@ -62,13 +62,13 @@ body {
 
 @media screen and (max-width: 768px) {
   .text p {
-    min-height: 50px;
+    min-height: 3.12rem;
   }
 }
 
 @keyframes surfacingUp {
   from {
-    bottom: -25px;
+    bottom: -1.56rem;
     opacity: 0;
   }
   to {
@@ -90,12 +90,12 @@ body {
 
 .button {
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 1rem;
+  height: 1rem;
   background-color: #E5E5E5;
   border-radius: 50%;
   cursor: pointer;
-  border: 8px solid #fff;
+  border: 0.5rem solid #fff;
 }
 
 #radio1:checked ~ .container .button1{
