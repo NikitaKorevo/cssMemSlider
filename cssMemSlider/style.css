@@ -42,7 +42,7 @@ body {
   padding: 0 1.25rem 1.25rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
   .container {
     flex-direction: column-reverse;
     gap: 1.56rem 0;
@@ -60,7 +60,7 @@ body {
   transition: 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
   .text p {
     min-height: 3.12rem;
   }
@@ -133,25 +133,25 @@ body {
 #radio1:checked ~ .container .subtitles1 {
   display: block;
   opacity: 1;
-  bottom: 0px;
+  bottom: 0;
 }
 
 #radio2:checked ~ .container .subtitles2 {
   display: block;
   opacity: 1;
-  bottom: 0px;
+  bottom: 0;
 }
 
 #radio3:checked ~ .container .subtitles3 {
   display: block;
   opacity: 1;
-  bottom: 0px;
+  bottom: 0;
 }
 
 #radio4:checked ~ .container .subtitles4 {
   display: block;
   opacity: 1;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .button:hover {
